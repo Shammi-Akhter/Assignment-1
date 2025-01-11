@@ -1,45 +1,176 @@
-.container{
+*body{
+ background-color: #F5F5F5; 
+}
+
+.container {
     width: 1280px;
     margin: auto;
+
 }
+
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 300 to 800 */
-
 .open-sans-uniquifier {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "width" 100;
+       
 }
-nav{
+
+/* nav styles */
+
+nav {
     display: flex;
     gap: 500px;
     align-items: center;
     justify-content: space-between;
-    
+    padding: 24px;
+
 }
-.btn-primary{
+
+.nav-title {
+    font-size: 20px;
+}
+
+.btn-primary {
     border-radius: 5px;
     border-color: #006A50;
     padding: 5px;
     color: #006A50;
 }
+
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
-   
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    padding: 100px 50px;
 }
-.banner-1{
+
+.banner-1 {
     color: #0E0E0E;
     opacity: 50%;
 
 
 }
-.banner-title{
+
+.banner-title {
     line-height: 26px;
     font-size: 56px;
 }
 
+.btn-2 {
+    background-color: #006A50;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 15px 20px;
+
+}
+
+/* Visions of future */
+.vision-title {
+    font-size: 40px;
+
+}
+
+.vision-future {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-button-1 {
+    border-radius: 5px;
+    background-color: #5490F5;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+}
+
+.card-button-2 {
+    border-radius: 5px;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+}
+
+.card-button-3 {
+    border-radius: 5px;
+    background-color: #FFC239;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+}
+
+.card {
+    
+    border-radius: 5px;
+
+}
+
+.card-1 {
+    width: 410px;
+    height: 325px;
+    padding: 32px 32px;
+    background-color: #D5E1F5;
+    border-radius: 10px;
+
+}
+.card-2 {
+   
+    width: 410px;
+    height: 325px;
+    padding: 32px 32px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+
+}
+.card-3 {
+    width: 410px;
+    height: 325px;
+    padding: 32px 32px;
+    background-color: #F7EBCF;
+    border-radius: 10px;
+
+}
+
+.card-text {
+    color: #0E0E0E;
+    opacity: 70%;
+}
+/* news style */
+.news{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.news-title{
+    line-height: 26px;
+    font-size: 46px;
+}
+.news-card-1,.news-card-2,.news-card-3{
+    display: flex;
+    justify-content: center;
+background-color: #FFFFFF;
+padding: 48px 48px;
+gap: 36px;
+border-radius: 20px;
+}
+.news-img{
+    border-radius: 25px;
+}
+.news-card-button{
+    background-color:#006A50 ;
+    border-radius: 5px;
+    padding: 10px 17px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 50px;
+}
