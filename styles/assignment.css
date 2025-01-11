@@ -5,12 +5,13 @@
 .container {
     width: 1280px;
     margin: auto;
+    font-family: "Fira Sans", serif;
 
 }
 
 /* <uniquifier>: Use a unique and descriptive class name */
 /* <weight>: Use a value from 300 to 800 */
-.open-sans-uniquifier {
+/* .open-sans-uniquifier {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -18,7 +19,7 @@
     font-variation-settings:
         "width" 100;
        
-}
+} */
 
 /* nav styles */
 
@@ -32,14 +33,19 @@ nav {
 }
 
 .nav-title {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .btn-primary {
     border-radius: 5px;
     border-color: #006A50;
-    padding: 5px;
+    padding: 10px 20px;
     color: #006A50;
+    border-color: #0c5f4a77;
+    font-weight: bold;
+    font-size: 15px;
+    
+
 }
 
 /* banner styles */
@@ -59,37 +65,61 @@ nav {
 }
 
 .banner-title {
-    line-height: 26px;
+    line-height: 16px;
     font-size: 56px;
 }
 
+
 .btn-2 {
     background-color: #006A50;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #FFFFFF;
-    padding: 15px 20px;
+    padding: 18px 30px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.btn-2:hover{
+    background-color: #FFFFFF;
+    color: #006A50;
+    border: 1px solid #006A50;
+    cursor: pointer;
 
 }
 
 /* Visions of future */
 .vision-title {
     font-size: 40px;
-
+margin-top: 30px;
 }
-
+.p{
+    color: #0E0E0E;
+    opacity: 70%;
+   
+}
 .vision-future {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-}
 
+   
+   
+}
+.card-button-1:hover,.card-button-2:hover,.card-button-3:hover{
+    background-color: #FFFFFF;
+    color: #6a1e00;
+    border: 1px solid #6a1e00;
+    cursor: pointer;
+}
 .card-button-1 {
     border-radius: 5px;
     background-color: #5490F5;
     color: #FFFFFF;
     padding: 10px 15px;
     border: none;
+    margin-top: 24px;
 }
 
 .card-button-2 {
@@ -98,6 +128,7 @@ nav {
     color: #FFFFFF;
     padding: 10px 15px;
     border: none;
+    margin-top: 24px;
 }
 
 .card-button-3 {
@@ -106,6 +137,7 @@ nav {
     color: #FFFFFF;
     padding: 10px 15px;
     border: none;
+    margin-top: 24px;
 }
 
 .card {
@@ -115,29 +147,36 @@ nav {
 }
 
 .card-1 {
+   
     width: 410px;
-    height: 325px;
+    height: 260px;
     padding: 32px 32px;
     background-color: #D5E1F5;
-    border-radius: 10px;
+    border-radius: 15px;
 
 }
 .card-2 {
    
     width: 410px;
-    height: 325px;
+    height: 260px;
     padding: 32px 32px;
     background-color: #C6E4D6;
-    border-radius: 10px;
+    border-radius: 15px;
 
 }
 .card-3 {
     width: 410px;
-    height: 325px;
+    height: 260px;
     padding: 32px 32px;
     background-color: #F7EBCF;
-    border-radius: 10px;
+    border-radius: 15px;
 
+}
+.card-vision-h{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
 }
 
 .card-text {
@@ -153,7 +192,7 @@ nav {
 }
 .news-title{
     line-height: 26px;
-    font-size: 46px;
+    font-size: 36px;
 }
 .news-card-1,.news-card-2,.news-card-3{
     display: flex;
@@ -163,33 +202,53 @@ padding: 48px 48px;
 gap: 36px;
 border-radius: 20px;
 }
+.news-card-button:hover{
+    background-color: #aacdd8;
+    color: #17157a;
+    border: 1px solid #13006a;
+    cursor: pointer;
+}
 .news-img{
     border-radius: 25px;
+    height: 300px;
 }
 .news-card-button{
     background-color:#006A50 ;
     border-radius: 5px;
-    padding: 10px 17px;
+    padding: 15px 30px;
     color: #FFFFFF;
     border: none;
     margin-top: 50px;
+    font-weight: bold;
+    font-size: 25;
+}
+h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin: 5px 5px;
 }
 /* donate styles */
 .donate{
     text-align: center;
     font-size: 40px;
-    margin-bottom: opx;
+    margin-bottom: 0 px;
+    color: #0E0E0E;
 }
 .donate-p{
    
     text-align: center;
     font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
 
 }
 .donate-element{
     display: flex;
     justify-content: center; 
-   margin: 30px;
+
+   margin: 30px 160px;
     gap: 47px;
     align-items: center;
     color: #0E0E0E;
@@ -199,18 +258,29 @@ border-radius: 20px;
     background-color: #FFFFFF;
     border-radius: 10px;
     padding: 8px 12px;
+    height: 80px;
+    width: 240px;
+}
+.donate-card-1:hover,.donate-card-2:hover,.donate-card-3:hover,.donate-card-4:hover{
+    background-color: #2f7fe7;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .donate-card-2{
 background-color: #C6E4D6;
 border-radius: 10px;
-padding: 10px 30px;
+padding: 8px 12px;
+height: 80px;
+width: 240px;
 }
 .donate-input-main{
-   text-align: center;
+    margin: 30px 160px;
+   display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
+
     border-radius: 10px;
 }
 .donate-input{
@@ -219,16 +289,75 @@ padding: 10px 30px;
     font-size: 20px;
     padding: 15px 25px;
     border: none;
+    opacity: 60%;
+    
 }
 .donate-now{
     padding-top: 20px;
     text-align: center;
 }
+.donate-last-btn:hover{
+    background-color: #f0f2f3;
+    color: #0a0606;
+    cursor: pointer;
+    border: 1px solid black;
+}
 .donate-last-btn{
-    padding: 10px 20px;
-  color: #FFFFFF;
+    padding: 18px 37px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
     text-align: center;
     background-color: #006A50;
     border-radius: 6px;
     border: none;
+}
+/* newsletter */
+.newsletter-main{
+    background-color: #C6E4D6;
+    margin-top: 70px;
+border-radius: 15px;
+    padding: 100px 80px ;
+}
+.newsletter{
+    font-size: 40px;
+    margin-top: 0px;
+
+}
+.newsletter-p{
+    margin: 10px 220px;
+    margin-bottom: 30px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.news-input{
+    display: flex;
+justify-content: center; 
+}
+input:focus{
+    outline: none; 
+    border: none;
+}
+.newsl-input-1{
+    padding: 18px 160px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    background-color: #FFFFFF;
+    border: none;
+    
+}
+.newsl-input-2{
+    padding: 18px 40px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: #006A50;
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+}
+.newsl-input-2:hover{
+    background-color: #69d4c6;
+    color: #006A50;
+    border: 1px solid #006A50 ;
 }
