@@ -1,0 +1,45 @@
+.container{
+    width: 1280px;
+    margin: auto;
+}
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 300 to 800 */
+
+.open-sans-uniquifier {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+nav{
+    display: flex;
+    gap: 500px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.btn-primary{
+    border-radius: 5px;
+    border-color: #006A50;
+    padding: 5px;
+    color: #006A50;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.banner-1{
+    color: #0E0E0E;
+    opacity: 50%;
+
+
+}
+.banner-title{
+    line-height: 26px;
+    font-size: 56px;
+}
+
