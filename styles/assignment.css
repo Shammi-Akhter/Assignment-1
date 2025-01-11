@@ -47,6 +47,17 @@ nav {
     
 
 }
+.btn-primary:hover {
+    border-radius: 5px;
+    background-color: #006A50;
+    padding: 10px 20px;
+    color: white;
+    border-color: #0c5f4a77;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
 
 /* banner styles */
 .banner {
@@ -177,11 +188,38 @@ margin-top: 30px;
     font-weight: bold;
     color: #0E0E0E;
     opacity: 80%;
+    margin: 10px 0;
 }
 
 .card-text {
     color: #0E0E0E;
     opacity: 70%;
+}
+/* quote styles */
+.qoute-p{
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 0px 40px;
+}
+.qoute-p-last{
+    color: #0E0E0E;
+    opacity: 60%;
+    
+}
+.quote-icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    left: 30px;
+    
+}
+.quote{ 
+     background-color: #FFFFFF; 
+   position: relative;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 10px;
 }
 /* news style */
 .news{
@@ -317,7 +355,7 @@ width: 240px;
     background-color: #C6E4D6;
     margin-top: 70px;
 border-radius: 15px;
-    padding: 100px 80px ;
+    padding: 50px ;
 }
 .newsletter{
     font-size: 40px;
@@ -325,8 +363,8 @@ border-radius: 15px;
 
 }
 .newsletter-p{
-    margin: 10px 220px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+   
     color: #0E0E0E;
     opacity: 70%;
 }
@@ -339,11 +377,14 @@ input:focus{
     border: none;
 }
 .newsl-input-1{
-    padding: 18px 160px;
+    width: 40%;
+    padding: 18px 30px;
     border-top-left-radius: 9px;
     border-bottom-left-radius: 9px;
     background-color: #FFFFFF;
     border: none;
+    opacity: 70%;
+    
     
 }
 .newsl-input-2{
@@ -359,5 +400,22 @@ input:focus{
 .newsl-input-2:hover{
     background-color: #69d4c6;
     color: #006A50;
-    border: 1px solid #006A50 ;
+    
+    cursor: pointer;
+}
+/* footer */
+.footer{
+    margin-top: 70px;
+    padding-top: 40px;
+    background-color: white;
+    
+}
+
+.footer-icons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 60px;
 }
